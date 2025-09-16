@@ -5,7 +5,7 @@ let cantRects = 22;
 let anchoTotal = 300;
 
 function preload() {
-  imagen = loadImage("28.jpg");
+  imagen = loadImage('data/28.jpg');
 }
 
 function setup() {
@@ -81,3 +81,4 @@ function mousePressed() {
 function keyPressed() {
   cant = 6;
 }
+
